@@ -8,6 +8,7 @@ import 'element-plus/theme-chalk/index.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
-import '../src/assets/zhoujiazhen.css'
+import '../public/css/zhoujiazhen.css'
+import '../public/css/style.css'
 
 createApp(App).use(store).use(elementPlus).use(router).mount('#app')
