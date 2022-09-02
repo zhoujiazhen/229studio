@@ -1,3 +1,20 @@
-.home{
-  background: -webkit-linear-gradient(bottom,rgba(173,216,230,1),rgba(0,0,0,0));
+.home {
+  background-image: linear-gradient(#ccffff, #ffffff);
 }
+.home .login {
+  width: 30%;
+  margin: auto;
+}
+.home .login .input-label {
+  font-size: 26px;
+}
+.home .login .input-radius {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .home .login {
+    width: 75%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

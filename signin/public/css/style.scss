@@ -1,3 +1,43 @@
 .home{
+    background-image: linear-gradient(#ccffff, #ffffff);//背景渐变，可以改变方向的，具体csdn上面进行查找
+    .login{
+        width: 30%;
+        margin: auto;
+        .input-label{
+            font-size:26px;
+            
+        }
+        .input-radius{
+            border-radius:15px;
+        }
+    }
+}
+@media screen and (max-width: 1920px){
+
+}
+
+@media screen and (max-width: 1440px){
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width: 992px){
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        .login{
+            width: 75%;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 365px){
     
 }

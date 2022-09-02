@@ -1,1 +1,1 @@
-.home{background-color:red}
+.home{background-image:linear-gradient(#cff, #fff)}.home .login{width:30%;margin:auto}.home .login .input-label{font-size:26px}.home .login .input-radius{border-radius:15px}@media screen and (max-width: 768px){.home .login{width:75%;margin:auto}}
